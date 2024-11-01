@@ -18,7 +18,7 @@ export default function BookDetail() {
 
     return (
         <div>
-            <div>BookDetail: {currentBookId}</div>
+            <div>BookDetail : {currentBookId}</div>
             <img className='w-36' src={image} alt="" />
             <br />
             <div className='flex gap-2'>
